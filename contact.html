@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Jake's Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">Jake Diorio</div>
+            <div class="nav">
+                <a href=index.html>About</a>
+                <a href=portfolio.html>Portfolio</a>
+                <a href=contact.html>Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-container">
+        <div class="content-title">
+            <h1>Contact</h1>
+        </div>
+        <form action="https://formspree.io/jdiorio2393@gmail.com" method="POST">
+            <label>Name</label><br>
+            <input class="input-fields" type="text" name="name" onfocus="if(this.value == 'John Smith') { this.value = ''; }"
+                value="John Smith"><br>
+            <label>E-mail</label><br>
+            <input class="input-fields" type="email" name="emailaddress" onfocus="if(this.value == 'example@gmail.com') { this.value = ''; }"
+                value="example@gmail.com"><br>
+            <label>Message</label><br>
+            <textarea type="text" name="message"></textarea>
+            <br><br>
+            <input class="submit-button" type="submit" value="Send">
+        </form>
+
+    </section>
+
+    <footer>
+            <p class="copyright">Copyright &copy; 2019 Jake Diorio</p>
+    </footer>
+
+</body>
+
+
+</html>
