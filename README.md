@@ -1,1 +1,3 @@
-# jdiorio2393.github.io
+# Crystal Collecter Game
+
+- Columbia Engineering Bootcamp
